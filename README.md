@@ -6,6 +6,12 @@
 
 📹 **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=DLhBdoVSUmk)
 
+## 📸 Screenshots
+
+![Polymarket 5min Trading Bot Interface](images/trading-bot-interface.png)
+
+*Bot interface showing real-time trading on Polymarket BTC 5-minute up/down market with position management console*
+
 ## ✨ Features
 
 - 🔍 **Auto Market Discovery** - Finds active BTC 5-minute markets automatically
@@ -60,6 +66,5 @@ See `WORKFLOW.md` for detailed workflow and `polymarket_bot_v1.py` for API refer
 
 ## 📞 Contact
 
-- **Telegram**: [@ddev05](https://t.me/ddev05)
-- **Video Demo**: [YouTube](https://www.youtube.com/watch?v=DLhBdoVSUmk)
+- **Telegram**: [@ddev05](https://t.me/sei_dev)
 
