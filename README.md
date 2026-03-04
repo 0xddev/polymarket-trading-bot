@@ -6,7 +6,7 @@
 
 📹 **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=teeMT-c4S3o)
 
-**You can check this bot workflow and how to get profit by using the TG bot within 10 min:** [S.E.I<ArbitrageBot>](https://t.me/sei_arb_bot)
+**You can check this bot workflow and how to get profit by using the TG bot within 10 min:** [S.E.I*ArbitrageBot](https://t.me/sei_arb_bot)
 
 ## 📸 Screenshots
 
