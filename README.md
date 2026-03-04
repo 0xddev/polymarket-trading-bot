@@ -12,7 +12,7 @@
 
 | Start | Arb Bot |
 |-------|---------|
-| ![Start](assets/arb_bot.png) | ![Arb Bot](assets/start.png) |
+| ![Arb Bot](assets/arb_bot.png) | ![Start](assets/start.png) |
 
 | Wallet | Settings | Help |
 |--------|----------|------|
