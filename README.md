@@ -20,12 +20,6 @@
 
 *TG bot: start flow, arb bot interface, wallet, settings, and help.*
 
-<details>
-<summary>Images not showing?</summary>
-
-- **In Cursor/VS Code:** Open the project folder `polymarket-trading-bot` as the workspace (File → Open Folder), not the parent `poly` folder. Then the paths `assets/...` resolve correctly.
-- **On GitHub:** Images show when the repo root contains both `README.md` and the `assets/` folder.
-</details>
 
 ## ✨ Features
 
