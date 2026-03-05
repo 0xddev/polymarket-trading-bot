@@ -18,7 +18,11 @@
 |--------|----------|------|
 | ![Wallet](assets/wallet.png) | ![Settings](assets/setting.png) | ![Help](assets/help.png) |
 
-*TG bot: start flow, arb bot interface, wallet, settings, and help.*
+| Result |
+|--------|
+| ![Result](assets/result.png) |
+
+*TG bot: start flow, arb bot interface, wallet, settings, help, and result.*
 
 
 ## ✨ Features
