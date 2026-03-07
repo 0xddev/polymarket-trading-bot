@@ -1,6 +1,6 @@
 # Polymarket BTC 5 分钟交易机器人
 
-**🌐 语言 / Language:** [English](README.md) | [中文](README.zh-CN.md)
+**🌐 语言 / Language:** [English](README.md) | [中文](README.zh-CN.md) | [Français](README.fr.md) | [Español](README.es.md)
 
 **📞 联系方式：** [S.E.I](https://t.me/sei_dev)（Telegram）
 
