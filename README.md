@@ -12,7 +12,17 @@
 | **Strategy 2** | High-opportunity trading at end of market cycle | [@seitrading_bot](https://t.me/seitrading_bot) (~1 hour) |
 | **Strategy 3** | Buy one of both UP/DOWN; when liquidity changes, get winning shares for $0.01 |
 
-📹 **Lets see video** [Watch on YouTube](https://www.youtube.com/watch?v=teeMT-c4S3o)
+📹 **Watch on YouTube**
+
+<style>
+.yt-thumb-wrap { position: relative; display: inline-block; }
+.yt-thumb-wrap .yt-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(255, 0, 0, 0.9); border-radius: 12px; color: #fff; font-size: 24px; line-height: 48px; text-align: center; opacity: 0; transition: opacity 0.2s; }
+.yt-thumb-wrap:hover .yt-play { opacity: 1; }
+</style>
+<a href="https://www.youtube.com/watch?v=teeMT-c4S3o" class="yt-thumb-wrap" title="Watch on YouTube">
+  <img src="https://img.youtube.com/vi/teeMT-c4S3o/maxresdefault.jpg" alt="YouTube – Polymarket 5min Trading Bot" width="640">
+  <span class="yt-play">▶</span>
+</a>
 
 ---
 
