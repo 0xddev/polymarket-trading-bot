@@ -1,83 +1,96 @@
 # Polymarket BTC 5-Minute Trading Bot
 
-🤖 Automated trading bot for Polymarket BTC 5-minute up/down markets. Trade 24/7 with automated position management and risk controls.
+**📞 Contact:** [S.E.I](https://t.me/sei_dev) (Telegram)
 
-[![Polymarket 5min Trading Bot](https://img.youtube.com/vi/NsRDKPQrRIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=NsRDKPQrRIs)
+---
 
-📹 **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=NsRDKPQrRIs)
+🤖 Automated trading bot for Polymarket BTC 5-minute up/down markets. Trade 24/7 with two strategies:
 
-**You can check this bot workflow and how to get profit by using the TG bot within 10 min:** [S.E.I*ArbitrageBot](https://t.me/sei_arb_bot)
+| Strategy | Description | Bot |
+|----------|-------------|-----|
+| **Strategy 1** | Arbitrage at the middle of the market | [@sei_arb_bot](https://t.me/sei_arb_bot) (~30 min) |
+| **Strategy 2** | High-opportunity trading at end of market cycle | [@seitrading_bot](https://t.me/seitrading_bot) (~1 hour) |
 
-## 📸 Screenshots
+📹 **Lets see video** [Watch on YouTube](https://www.youtube.com/watch?v=teeMT-c4S3o)
 
-| Start | Arb Bot |
-|-------|---------|
-| ![Arb Bot](assets/arb_bot.png) | ![Start](assets/start.png) |
+---
 
-| Wallet | Settings | Help |
-|--------|----------|------|
-| ![Wallet](assets/wallet.png) | ![Settings](assets/setting.png) | ![Help](assets/help.png) |
+## Strategy 1: Arbitrage (mid-market)
+
+Buy both sides, merge to recover USDC. **Try in ~30 min:** [@sei_arb_bot](https://t.me/sei_arb_bot)
+📹 **Guide Demo:** [Watch on YouTube](https://www.youtube.com/watch?v=NsRDKPQrRIs)
+### Screenshots
+
+|  |  |  |
+|--|--|--|
+| ![image1](assets/image1.png) | ![image2](assets/image2.png) | ![image3](assets/image3.png) |
 
 | Result |
 |--------|
 | ![Result](assets/result.png) |
 
-*TG bot: start flow, arb bot interface, wallet, settings, help, and result.*
+### Features
 
+- 🔍 Auto Market Discovery – Finds active BTC 5-minute markets
+- 📊 Smart Position Management – Monitors UP/DOWN positions
+- 🛡️ Risk Protection – Auto-sells before market close
+- 💰 Token Merging – Recovers USDC from equal positions
 
-## ✨ Features
+### How It Works
 
-- 🔍 **Auto Market Discovery** - Finds active BTC 5-minute markets automatically
-- 📊 **Smart Position Management** - Monitors and balances UP/DOWN positions
-- 🛡️ **Risk Protection** - Auto-sells before market close to prevent losses
-- ⚡ **Continuous Trading** - Runs across multiple 5-minute market epochs
-- 💰 **Token Merging** - Automatically recovers USDC from equal positions
+1. Finds the current BTC 5-minute market  
+2. Monitors UP/DOWN token positions  
+3. Merges equal positions to recover USDC  
+4. Force-sells before market close (30s threshold)  
+5. Places orders for the next market automatically  
+
+---
+
+## Strategy 2: End-of-cycle trading
+
+High-opportunity trading at the end of the market cycle. **Try in ~1 hour:** [@seitrading_bot](https://t.me/seitrading_bot)
+
+### Screenshots
+
+| Result 1 |
+|----------|
+| ![Result 1](assets/result1.png)
+### Features
+
+- High-opportunity detection at end of market cycle
+- Automated timing and order placement
+- Risk-managed exposure
+
+### How It Works
+
+1. Monitors the current 5-minute market toward resolution  
+2. Identifies high-opportunity moments at end of cycle  
+3. Places or adjusts orders accordingly  
+4. Manages positions and exits before market close  
+
+---
 
 ## 🚀 Quick Start
 
 1. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. **Configure `.env` file:**
-```bash
-PRIVATE_KEY=0x...              # Your wallet private key
-ORDER_PRICE=0.46               # Limit order price
-ORDER_SIZE=5.0                 # Order size
-```
+2. **Configure `.env`:**
+   ```bash
+   PRIVATE_KEY=0x...    # Your wallet private key
+   ORDER_PRICE=0.46     # Limit order price
+   ORDER_SIZE=5.0       # Order size
+   ```
 
 3. **Run the bot:**
-```bash
-python main.py
-```
+   ```bash
+   python main.py
+   ```
 
-## 📋 How It Works
-
-The bot continuously:
-1. Finds the current BTC 5-minute market
-2. Monitors UP/DOWN token positions
-3. Merges equal positions to recover USDC
-4. Force sells before market close (30s threshold)
-5. Places orders for the next market automatically
-
-## 🔧 Configuration
-
-Key environment variables:
-- `PRIVATE_KEY` - Wallet private key (required)
-- `ORDER_PRICE` - Limit order price (default: 0.46)
-- `ORDER_SIZE` - Order size (default: 5.0)
-- `HOST` - CLOB API host (default: https://clob.polymarket.com)
-
-## ⚠️ Security
-
-Never commit your `.env` file or private key. Keep credentials secure.
+---
 
 ## 📚 Documentation
 
-See `WORKFLOW.md` for detailed workflow and `polymarket_bot_v1.py` for API reference.
-
-## 📞 Contact
-
-- **Telegram**: [S.E.I](https://t.me/sei_dev)
-
+- **User guide:** [docs.md](docs.md) – How to use the TG bot and get started.
