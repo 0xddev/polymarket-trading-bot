@@ -1,4 +1,5 @@
 # Polymarket BTC 5-Minute Trading Bot
+An automated trading bot designed to identify and execute short-term opportunities in Bitcoin markets on Polymarket. The bot analyzes market data in real time and places trades on 5-minute prediction intervals, allowing it to capitalize on rapid price movements and micro-market inefficiencies.
 
 **🌐 Language:** [English](README.md) | [中文](README.zh-CN.md) | [Français](README.fr.md) | [Español](README.es.md)
 
@@ -10,8 +11,8 @@
 
 | Strategy | Description | Bot |
 |----------|-------------|-----|
-| **Strategy 1** | Arbitrage at the middle of the market | [@sei_arb_bot](https://t.me/sei_arb_bot) (~30 min) | Script Bot |
-| **Strategy 2** | High-opportunity trading at end of market cycle | [@seitrading_bot](https://t.me/seitrading_bot) (~1 hour) | Script Bot |
+| **Strategy 1** | Arbitrage at the middle of the market | [@sei_arb_bot](https://t.me/sei_arb_bot)(~30 min), Script Bot |
+| **Strategy 2** | High-opportunity trading at end of market cycle | [@seitrading_bot](https://t.me/seitrading_bot)(~1 hour), Script Bot |
 | **Strategy 3** | Buy one of both UP/DOWN; when liquidity changes, get winning shares for $0.01 | Script Bot
 
 📹 **Watch on YouTube**
